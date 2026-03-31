@@ -4,178 +4,123 @@
     <title>Football</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Internal CSS -->
+    <style>
+        /* 2. Background colour */
+        body {
+            background-color: #0073e6; /* Blue background */
+            font-family: Arial, sans-serif;
+            text-align: center; /* Center content */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Containers styling */
+        .container {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 1000px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        /* Table Styling */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: auto;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #0059b3;
+            color: white;
+        }
+
+        /* Headings inside container */
+        h1, h2, h3, h4 {
+            margin: 10px 0;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Headings -->
-<h1>Football</h1>
-<h2>Type of Sport: Football</h2>
-<h3>History of Football</h3>
-<h4>Famous Football Players</h4>
+<!-- Container 1: Header -->
+<div class="container" style="background-color:#004d99; color:white;">
+    <h1>Football</h1>
+    <p>The World's Most Popular Sport</p>
+</div>
 
-<!-- Images Section -->
-<h3>Football Images</h3>
-<img src="https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a" width="300" height="200" alt="Football Image 1">
+<!-- Container 2: About Football -->
+<div class="container">
+    <h2>About Football</h2>
+    <p><b>Football is a globally loved sport that combines teamwork, skill, speed, and passion, bringing millions of fans together through exciting matches and competitions.</b></p>
+    <p>
+        <u>Football originated many years ago and became popular worldwide.</u><br>
+        <u>It involves two teams competing to score goals using a ball.</u>
+    </p>
+</div>
 
-<img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20" width="300" height="200" alt="Football Image 3">
+<!-- Container 3: Images -->
+<div class="container">
+    <h3>Football Images</h3>
+    <img src="https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a" width="300" style="margin:10px; border-radius:10px;">
+    <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20" width="300" style="margin:10px; border-radius:10px;">
+</div>
 
-<br><br>
+<!-- Container 4: Videos -->
+<div class="container">
+    <h3>Football Videos</h3>
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/pAXZixWL2hE" style="margin:10px; border-radius:10px;" allowfullscreen></iframe>
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/J1RDiaSUEdY" style="margin:10px; border-radius:10px;" allowfullscreen></iframe>
+</div>
 
-<!-- Video Section -->
-<h3>Football Video</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pAXZixWL2hE?si=2iaaIwAzXVe8_Kad" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J1RDiaSUEdY?si=sc4H-OF2GCHi2iG7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<br><br>
+<!-- Container 5: Players & Schedule -->
+<div class="container">
+    <h3>Top Players</h3>
+    <ol>
+        <li>Lionel Messi</li>
+        <li>Cristiano Ronaldo</li>
+        <li>Kylian Mbappé</li>
+    </ol>
 
-<!-- One bold sentence -->
-<p><b>Football is a globally loved sport that combines teamwork, skill, strategy, speed, and passion, bringing people together through exciting matches, competitions, and unforgettable moments on the field.</b></p>
-
-<!-- Two underlined sentences -->
-<p>
-<u>Football originated many years ago and became popular worldwide.</u><br>
-<u>It involves two teams competing to score goals using a ball.</u>
-</p>
-
-<!-- Superscript -->
-<p>
-10<sup>th</sup> |
-FIFA<sup>2</sup> |
-x<sup>2</sup> |
-2<sup>3</sup>
-</p>
-
-<!-- Subscript -->
-<p>
-H<sub>2</sub>O |
-CO<sub>2</sub> |
-O<sub>2</sub> |
-N<sub>2</sub>
-</p>
-
-<!-- Del tag -->
-<p>
-<del>Old Football Rules</del><br>
-<del>Old Stadiums</del><br>
-<del>Old Teams</del><br>
-<del>Old Matches</del>
-</p>
-
-<!-- Mark tag -->
-<p>
-<mark>Goals</mark><br>
-<mark>Teams</mark><br>
-<mark>Championship</mark><br>
-<mark>World Cup</mark>
-</p>
-
-<!-- Quotes -->
-<p>
-"Football is the world's game."<br>
-"Teamwork leads to victory."<br>
-"Every match tells a story."<br>
-"Passion drives the players."
-</p>
-
-<!-- Blockquote -->
-<blockquote>
-Football unites people from different cultures.<br>
-It builds teamwork and discipline.<br>
-It inspires millions of fans worldwide.<br>
-It creates unforgettable sporting moments.
-</blockquote>
-
-<!-- Line breaks -->
-<p>
-Football inspires young athletes every day.<br>
-Fast-paced action keeps fans excited.<br>
-Players train hard to improve their skills.<br>
-Matches bring communities together.
-</p>
-
-<!-- HR -->
-<p>Football is the most popular sport worldwide.</p>
-<hr>
-<p>It promotes fitness and teamwork.</p>
-<hr>
-<p>Football continues to grow globally.</p>
-
-<!-- PRE -->
-<pre>
-Football started many centuries ago.
-It evolved into a global sport.
-Major tournaments attract millions of fans.
-</pre>
-
-<!-- Unordered list -->
-<ul>
-    <li>Premier League</li>
-    <li>La Liga</li>
-    <li>Champions League</li>
-</ul>
-
-<!-- Ordered list -->
-<ol>
-    <li>Lionel Messi</li>
-    <li>Cristiano Ronaldo</li>
-    <li>Kylian Mbappé</li>
-</ol>
-
-<!-- Nested list -->
-<ul>
-    <li>Football Skills
-        <ul>
-            <li>Dribbling</li>
-            <li>Passing</li>
-            <li>Shooting</li>
-        </ul>
-    </li>
-    <li>Football Competitions
-        <ul>
-            <li>World Cup</li>
-            <li>UEFA Champions League</li>
-            <li>Domestic Leagues</li>
-        </ul>
-    </li>
-</ul>
-
-<!-- Table -->
-<table border="1">
-    <caption>Football Match Schedule</caption>
-    <tr>
-        <th>Day</th>
-        <th>Time</th>
-        <th>Team</th>
-        <th>League</th>
-        <th>Stadium</th>
-        <th>Tickets</th>
-        <th>Referee</th>
-        <th>Status</th>
-    </tr>
-    <tr>
-        <td rowspan="2">Monday</td>
-        <td>10AM</td>
-        <td>Team A</td>
-        <td>Premier League</td>
-        <td>Stadium 1</td>
-        <td>Available</td>
-        <td>John</td>
-        <td>Open</td>
-    </tr>
-    <tr>
-        <td>2PM</td>
-        <td>Team B</td>
-        <td>La Liga</td>
-        <td>Stadium 2</td>
-        <td>Sold</td>
-        <td>Mike</td>
-        <td>Closed</td>
-    </tr>
-</table>
+    <h3>Match Schedule</h3>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Team</th>
+            <th>League</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>10AM</td>
+            <td>Team A</td>
+            <td>Premier League</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>2PM</td>
+            <td>Team B</td>
+            <td>La Liga</td>
+        </tr>
+    </table>
+</div>
 
 <!-- Footer -->
-<footer>
+<div class="container" style="background-color:#004d99; color:white;">
     <p>&copy; 2026 Football</p>
-</footer>
+</div>
 
 </body>
 </html>
